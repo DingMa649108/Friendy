@@ -1,6 +1,60 @@
 const asyncHandler = require('express-async-handler')
 const user = require('../models/userModel')
 
+// @desc   user signup
+// @route  PUT /api/userSignupStatus
+// @access Private
+const signUp = asyncHandler(async (req, res) => {
+  const {
+    id,
+    password,
+    name,
+    phoneNumber,
+    lat,
+    lon,
+    enableNotification,
+    interests,
+  } = req.body.user
+
+  const user = await User.findOne({id: id});
+  if(user) {
+    res.status(404)
+    throw new Error(`User with id ${req.params.id} already exist, please log in`)
+  }
+
+  const newUser = await User.create({
+    id,
+    password,
+    name,
+    phoneNumber,
+    lat,
+    lon,
+    enableNotification,
+    interests,
+  })
+
+  res.status(200).json(newUser)
+})
+
+// @desc   user login
+// @route  GET /api/userLoginStatus
+// @access Private
+const login = asyncHandler(async (req, res) => {
+  const user = await User.findOne({id: req.body.user.id});
+  if(!user) {
+    res.status(404)
+    throw new Error(`User with id ${req.params.id} not found`)
+  }
+
+  if(req.body.user.password == user.password) {
+    res.status(200);
+  } else {
+    res.status(404)
+    throw new Error(`Password not correct, please enter again`)
+  }
+  res.status(200).json(user)
+})
+
 // @desc   get users
 // @route  GET /api/users
 // @access Private
@@ -28,7 +82,7 @@ const updateUser = asyncHandler(async (req, res) => {
 // @route  POST /api/users
 // @access Private
 const createUser = asyncHandler(async (req, res) => {
-  
+
 })
 
 
@@ -47,4 +101,6 @@ module.exports = {
   updateuser,
   createuser,
   deleteuser,
+  signUp,
+  login,
 }
