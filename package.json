@@ -26,7 +26,8 @@
     "express": "^4.18.1",
     "express-async-handler": "^1.2.0",
     "mongoose": "^6.3.2",
-    "mongoose-unique-validator": "^3.0.0"
+    "mongoose-unique-validator": "^3.0.0",
+    "twilio": "^3.77.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
