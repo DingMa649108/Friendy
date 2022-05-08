@@ -7,7 +7,7 @@ This Project is built to attend the [RU Hacks 2022](https://ru-hacks-2022-digita
 
 
 ## Inspiration
-With the virtual academic life of students, it's not easy to make friends and get to know more people that have the same interests as you.
+As students transition from online learning to in person classes, they may feel lost and lonely without any guidance. The large and unfamiliar university campus might feel intimidating, especially, when students didn’t have the chance to make any new friends online. Luckily our app, Friendy, will bring students together when they are on campus, and they will have all the resources they need to succeed for in-person learning.
 
 ## What It Does
 This application aims to eliminate the barriers between students and make them easy to make friends. It will notify user by text message if that user enabled the notification settings and if there are any other users has three or more common interests within 500 meters radius. It will also let users chat with each other and show the locations on a map. It also includes events and campus resources for people to hangout
