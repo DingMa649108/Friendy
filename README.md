@@ -1,4 +1,4 @@
-# Find-Friend
+# Friendy
 ## About This Project
 This Project is built to attend the [RU Hacks 2022](https://ru-hacks-2022-digital-15171.devpost.com/) event.
 
@@ -25,5 +25,5 @@ We are proud that we have completed the essential feature of the website, which 
 ## What We Learned
 We learned a lot about Figma, and its related plugins. We also learned how to use Twilio API to send text messages
 
-## What's Next for Happy Community
+## What's Next for Friendy
 We are planning to change the website to a mobile application and finish implementing what is left for this product, which includes chatting with each other and render a map to show the users and resources.
