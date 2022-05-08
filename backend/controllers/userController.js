@@ -1,9 +1,9 @@
 const asyncHandler = require('express-async-handler')
 const User = require('../models/userModel')
- const accountSid = 'AC64804f4080250946410ba2eefd04702e'
- const authToken = 'bbd2f53f0285c08713de33d5308668f2'
- const phone_number = '+19705195580'
- const client = require('twilio')(accountSid, authToken)
+const accountSid = 'AC64804f4080250946410ba2eefd04702e'
+const authToken = 'bbd2f53f0285c08713de33d5308668f2'
+const phone_number = '+19705195580'
+const client = require('twilio')(accountSid, authToken)
 
 // @desc   user signup
 // @route  PUT /api/user
@@ -68,7 +68,9 @@ const getUsers = asyncHandler(async (req, res) => {
   res.status(200).json(users)
 })
 
-// @desc   get nearby users that has three or more common interests within 500 meter radius
+// @desc   get nearby users that has three or more common interests within 500 meter radius based on current lat and lon, update
+//         the lat and lon for that user and send text message for a list of user's name and common interests if enabled the
+//         notification setting
 // @route  GET /api/:id
 // @access Private
 const getNearbyCommonInterestsUsers = asyncHandler(async (req, res) => {
@@ -108,52 +110,45 @@ const getNearbyCommonInterestsUsers = asyncHandler(async (req, res) => {
     },
     createdAt: user.createdAt,
     updatedAt: user.updatedAt,
-    __v: user.__v
+    __v: user.__v,
   }
 
   await User.findByIdAndUpdate(user._id, newUser, {
-  new: false,
-})
+    new: false,
+  })
 
-user = await User.findOne({ id: req.body.id })
-
- const commonInterestsUsers = getCommonInterestsUserList(user, otherUsers)
-
-
- // client.messages
- //   .create({
- //     body: `You are matched with the following users: ${commonInterestsUsers}`,
- //     from: phone_number,
- //     to: user.phoneNumber,
- //   })
- //   .then((message) => console.log(message.sid))
-
- if (user.enableNotification) {
- client.messages
-   .create({
-     body: getMessageContent(user, commonInterestsUsers),
-     from: phone_number,
-     to: user.phoneNumber,
-   })
-   .then((message) => console.log(message.sid))
- }
+  user = await User.findOne({ id: req.body.id })
+  const commonInterestsUsers = getCommonInterestsUserList(user, otherUsers)
+  if (user.enableNotification) {
+    client.messages
+      .create({
+        body: getMessageContent(user, commonInterestsUsers),
+        from: phone_number,
+        to: user.phoneNumber,
+      })
+      .then((message) => console.log(message.sid))
+  }
 
   res.status(200).json(commonInterestsUsers)
 })
 
+// EFFECTS: get the text message body to send. It includes each commonInterestsUsers's name and common interests
 function getMessageContent(user, commonInterestsUsers) {
- let result = "You are matched with the following users: \n"
- console.log(commonInterestsUsers)
- const userInterest = getUserInterestList(user)
- commonInterestsUsers.forEach((element, i) => {
+  let result = 'You are matched with the following users: \n'
+  console.log(commonInterestsUsers)
   const userInterest = getUserInterestList(user)
-  const elementInterest = getUserInterestList(element)
-  let commonInterest = userInterest.filter((i) => elementInterest.includes(i))
-  result = result + `${i+1}. ${element.name}, common interests: ${commonInterest}\n`
- })
- return result
+  commonInterestsUsers.forEach((element, i) => {
+    const userInterest = getUserInterestList(user)
+    const elementInterest = getUserInterestList(element)
+    let commonInterest = userInterest.filter((i) => elementInterest.includes(i))
+    result =
+      result +
+      `${i + 1}. ${element.name}, common interests: ${commonInterest}\n`
+  })
+  return result
 }
 
+// EFFECTS: get a list of users that has 3 or more common interests and within 500 m radius
 function getCommonInterestsUserList(user, otherUsers) {
   let result = []
 
@@ -161,7 +156,6 @@ function getCommonInterestsUserList(user, otherUsers) {
 
   otherUsers.forEach((element) => {
     const elementInterest = getUserInterestList(element)
-
 
     let commonInterest = userInterest.filter((i) => elementInterest.includes(i))
     if (commonInterest.length < 3) {
@@ -176,7 +170,7 @@ function getCommonInterestsUserList(user, otherUsers) {
   return result
 }
 
-//This function takes in latitude and longitude of two location and returns the distance between them as the crow flies (in km)
+//EFFECTS: takes in latitude and longitude of two location and returns the distance between them as the crow flies (in km)
 function calcCrow(lat1, lon1, lat2, lon2) {
   var R = 6371 // km
   var dLat = toRad(lat2 - lat1)
@@ -203,9 +197,9 @@ function getUserInterestList(user) {
   if (user.interests.reading) interests.push('reading')
   if (user.interests.music) interests.push('music')
   if (user.interests.gaming) interests.push('gaming')
-  if (user.interests.movie ) interests.push('movie')
+  if (user.interests.movie) interests.push('movie')
   if (user.interests.academics) interests.push('academics')
-  if (user.interests.gardening ) interests.push('gardening')
+  if (user.interests.gardening) interests.push('gardening')
   return interests
 }
 
