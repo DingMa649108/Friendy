@@ -1,0 +1,309 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.sign-up-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: white;
+  border-radius: 24px 24px 24px 24px; }
+
+.sign-up-cover-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  border-radius: 1.3333333730697632px 1.3333333730697632px 1.3333333730697632px 1.3333333730697632px; }
+
+.sign-up-cover-block4.layout {
+  position: absolute;
+  top: 17px;
+  bottom: 783px;
+  min-height: 12px;
+  flex-shrink: 0;
+  left: 0px;
+  right: 0px;
+  width: 5.87%;
+  margin: 0px 4.53% 0px 89.6%; }
+
+.sign-up-image32 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.sign-up-block1 {
+  display: flex;
+  flex-direction: column; }
+
+.sign-up-block1.layout6 {
+  position: absolute;
+  top: 0px;
+  height: 21px;
+  left: 0px;
+  right: 0px;
+  width: 14.4%;
+  margin: 7px 80% 784px 5.6%; }
+
+.sign-up-box22 {
+  background-color: white;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-box22.layout {
+  position: absolute;
+  top: 0px;
+  height: 60px;
+  left: 26px;
+  right: 27px;
+  margin: 360px 0px 392px; }
+
+.sign-up-highlights13-box {
+  opacity: 0.5; }
+
+.sign-up-highlights13-box.layout {
+  position: absolute;
+  top: 383px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 387px;
+  left: 0px;
+  right: 0px;
+  width: 13.07%;
+  margin: 0px 73.87% 0px 13.07%; }
+
+.sign-up-highlights13 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: red;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.sign-up-cover-block12 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-cover-block12.layout {
+  position: absolute;
+  top: 445px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 307px;
+  left: 26px;
+  right: 27px; }
+
+.sign-up-highlights14 {
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: red;
+  letter-spacing: 0px;
+  opacity: 0.5; }
+
+.sign-up-highlights14.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 21px 25px 18px; }
+
+.sign-up-cover-block13 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-cover-block13.layout {
+  position: absolute;
+  top: 530px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 222px;
+  left: 26px;
+  right: 27px; }
+
+.sign-up-highlights16 {
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: red;
+  letter-spacing: 0px;
+  opacity: 0.5; }
+
+.sign-up-highlights16.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 21px 25px 18px; }
+
+.sign-up-cover-block16 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-cover-block16.layout {
+  position: absolute;
+  top: 615px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 137px;
+  left: 26px;
+  right: 27px; }
+
+.sign-up-highlights17 {
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: red;
+  letter-spacing: 0px;
+  opacity: 0.5; }
+
+.sign-up-highlights17.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 21px 25px 18px; }
+
+.sign-up-box23 {
+  background-color: white;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-box23.layout {
+  position: absolute;
+  top: 0px;
+  height: 60px;
+  left: 26px;
+  right: 27px;
+  margin: 275px 0px 477px; }
+
+.sign-up-highlights18-box {
+  opacity: 0.5; }
+
+.sign-up-highlights18-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 13.87%;
+  margin: 296px 72.53% 474px 13.6%; }
+
+.sign-up-highlights18 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: red;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.sign-up-cover-block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe660;
+  border-radius: 14px 14px 14px 14px; }
+
+.sign-up-cover-block3.layout {
+  position: absolute;
+  top: 695px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 65px;
+  left: 26px;
+  right: 27px; }
+
+.sign-up-medium-title2 {
+  display: flex;
+  justify-content: center;
+  font: 500 24px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #2c7cf3;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.sign-up-medium-title2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 30.12%;
+  margin: 8px 37.58% 15px 32.3%; }
+
+.sign-up-image4.layout2 {
+  position: absolute;
+  top: 0px;
+  height: 129px;
+  left: 0px;
+  right: 0px;
+  width: 28.8%;
+  margin: 65px auto 618px; }
+
+.sign-up-big-title3 {
+  display: flex;
+  justify-content: center;
+  font: 600 32px/1.31 "Poppins", Helvetica, Arial, serif;
+  color: #212121;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.sign-up-big-title3.layout {
+  position: absolute;
+  top: 173px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 597px;
+  left: 0px;
+  right: 0px; }
+
+.sign-up-highlights25 {
+  display: flex;
+  justify-content: flex-end;
+  font: 17.5px/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: black;
+  text-align: right;
+  letter-spacing: 0px; }
+
+.sign-up-highlights25.layout {
+  position: absolute;
+  top: 220px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 571px;
+  left: 0px;
+  right: 0px;
+  width: 49.87%;
+  margin: 0px auto; }
+
+.sign-up-text-body1-box {
+  display: flex;
+  justify-content: center; }
+
+.sign-up-text-body1-box.layout {
+  position: absolute;
+  top: 772px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 22px;
+  left: 0px;
+  right: 0px;
+  width: 76.53%;
+  margin: 0px 14.13% 0px 9.33%; }
+
+.sign-up-text-body1-span0 {
+  font: 1em/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: #0000007f;
+  letter-spacing: 0px; }
+
+.sign-up-text-body1-span1 {
+  font: 700 1em/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: #0000007f;
+  letter-spacing: 0px; }
+
+.sign-up-text-body1-span2 {
+  font: 700 1em/1.2 "Proxima Nova", Helvetica, Arial, serif;
+  color: #ff630cff;
+  letter-spacing: 0px; }

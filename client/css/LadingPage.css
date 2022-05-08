@@ -1,0 +1,141 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.lading-page-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: white;
+  border-radius: 24px 24px 24px 24px; }
+
+.lading-page-cover-block2 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe873;
+  border-radius: 14px 14px 14px 14px; }
+
+.lading-page-cover-block2.layout {
+  position: absolute;
+  top: 17px;
+  bottom: 783px;
+  min-height: 12px;
+  flex-shrink: 0;
+  left: 0px;
+  right: 0px;
+  width: 5.87%;
+  margin: 0px 4.53% 0px 89.6%; }
+
+.lading-page-image1 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.lading-page-image2 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.lading-page-image31 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.lading-page-block1 {
+  display: flex;
+  flex-direction: column; }
+
+.lading-page-block1.layout5 {
+  position: absolute;
+  top: 0px;
+  height: 21px;
+  left: 0px;
+  right: 0px;
+  width: 14.4%;
+  margin: 7px 80% 784px 5.6%; }
+
+.lading-page-cover-block11 {
+  display: flex;
+  flex-direction: column;
+  background-color: #60ff70;
+  border-radius: 14px 14px 14px 14px; }
+
+.lading-page-cover-block11.layout {
+  position: absolute;
+  top: 552px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 208px;
+  left: 26px;
+  right: 27px; }
+
+.lading-page-medium-title {
+  display: flex;
+  justify-content: center;
+  font: 500 24px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #0373f3;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.lading-page-medium-title.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 27.33%;
+  margin: 8px auto 15px; }
+
+.lading-page-cover-block2.layout1 {
+  position: absolute;
+  top: 634px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 126px;
+  left: 26px;
+  right: 31px; }
+
+.lading-page-medium-title1 {
+  display: flex;
+  justify-content: center;
+  font: 500 24px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #2c7cf3;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.lading-page-medium-title1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 22.33%;
+  margin: 8px auto 15px; }
+
+.lading-page-big-title1-box {
+  display: flex;
+  justify-content: center; }
+
+.lading-page-big-title1-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 430px 16px 298px; }
+
+.lading-page-big-title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 600 32px/1.31 "Poppins", Helvetica, Arial, serif;
+  color: #47313d;
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.lading-page-image4.layout1 {
+  position: absolute;
+  top: 0px;
+  height: 230px;
+  left: 0px;
+  right: 0px;
+  width: 49.6%;
+  margin: 232px auto 350px; }

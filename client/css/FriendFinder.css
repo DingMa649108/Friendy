@@ -1,0 +1,1229 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.friend-finder-block {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 24px 24px 24px 24px; }
+
+.friend-finder-group {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-group.layout34 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 7px 13px; }
+
+.friend-finder-big-title {
+  display: flex;
+  justify-content: center;
+  font: 600 28px/1.5 "Poppins", Helvetica, Arial, serif;
+  color: #212121;
+  text-align: center;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title.layout {
+  position: absolute;
+  top: 52px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 704px;
+  left: 0px;
+  right: 0px;
+  width: 57.59%;
+  margin: 0px 29.23% 0px 13.18%; }
+
+.friend-finder-flex {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex1 {
+  display: flex; }
+
+.friend-finder-flex1.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 1px 0px 8px; }
+
+.friend-finder-flex1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 54px; }
+
+.friend-finder-group.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 1px; }
+
+.friend-finder-block1 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-block1.layout {
+  position: absolute;
+  top: 0px;
+  height: 21px;
+  left: 0px;
+  right: 0px; }
+
+.friend-finder-highlights {
+  display: flex;
+  justify-content: center;
+  font: 15px/1.2 "SF Pro Text", Helvetica, Arial, serif;
+  color: #212121;
+  text-align: center;
+  letter-spacing: -0.30000001192092896px; }
+
+.friend-finder-highlights.layout {
+  position: absolute;
+  top: 7px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  left: 10px;
+  width: 32px; }
+
+.friend-finder-block1.layout2 {
+  position: relative;
+  height: 21px; }
+
+.friend-finder-flex-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 17px; }
+
+.friend-finder-cover-group1 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-cover-group1.layout {
+  position: relative;
+  height: 10px;
+  margin: 11px 0px 1px; }
+
+.friend-finder-image21 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-image21.layout {
+  position: relative;
+  height: 10px;
+  width: 17px;
+  min-width: 17px; }
+
+.friend-finder-flex-spacer5 {
+  flex: 0 1 5px; }
+
+.friend-finder-flex1-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 15px; }
+
+.friend-finder-cover-group2 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-cover-group2.layout {
+  position: relative;
+  height: 11px;
+  margin: 10px 0px 1px; }
+
+.friend-finder-image12 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-image12.layout {
+  position: relative;
+  height: 11px;
+  width: 15px;
+  min-width: 15px; }
+
+.friend-finder-flex2-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 22px; }
+
+.friend-finder-cover-block111 {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(34, 34, 34, 0.58);
+  border-radius: 2.6666667461395264px 2.6666667461395264px 2.6666667461395264px 2.6666667461395264px; }
+
+.friend-finder-cover-block111.layout {
+  position: relative;
+  height: 12px;
+  margin: 10px 0px 0px; }
+
+.friend-finder-cover-group3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #212121;
+  border-radius: 1.3333333730697632px 1.3333333730697632px 1.3333333730697632px 1.3333333730697632px; }
+
+.friend-finder-flex-spacer7 {
+  flex: 0 1 1px; }
+
+.friend-finder-flex-item9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 0 auto;
+  min-width: 2px; }
+
+.friend-finder-cover-group4 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-cover-group4.layout1 {
+  position: relative;
+  height: 4px;
+  margin: 14px 0px 4px; }
+
+.friend-finder-image.layout2 {
+  position: relative;
+  height: 4px;
+  width: 2px;
+  min-width: 2px; }
+
+.friend-finder-flex25 {
+  display: flex; }
+
+.friend-finder-flex25.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 41px 10px 0px 14px; }
+
+.friend-finder-flex2-item9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 9px; }
+
+.friend-finder-image4.layout4 {
+  position: relative;
+  height: 16px;
+  width: 9px;
+  min-width: 9px;
+  margin: 1px 0px; }
+
+.friend-finder-flex3-spacer3 {
+  flex: 0 1 312px; }
+
+.friend-finder-flex2-item10 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 4px; }
+
+.friend-finder-cover-group6 {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-cover-group6.layout {
+  position: relative;
+  height: 18px; }
+
+.friend-finder-image39 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-image39.layout {
+  position: relative;
+  height: 18px;
+  width: 4px;
+  min-width: 4px; }
+
+.friend-finder-highlights110 {
+  font: 17px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #221f1f;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights110.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 28px 19px 0px 27px; }
+
+.friend-finder-cover-block91 {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10.1875px 10.1875px 10.1875px 10.1875px; }
+
+.friend-finder-cover-block91.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 21px 0px 0px 1px; }
+
+.friend-finder-flex3.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 19px 17px; }
+
+.friend-finder-flex41 {
+  display: flex; }
+
+.friend-finder-flex41.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 5px; }
+
+.friend-finder-flex4-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 48px; }
+
+.friend-finder-icon14 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon14.layout {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  margin: 14px 0px 12px; }
+
+.friend-finder-flex3-spacer4 {
+  flex: 0 1 15px; }
+
+.friend-finder-flex3-item6 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 93px; }
+
+.friend-finder-flex51 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex51.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 1px 0px; }
+
+.friend-finder-big-title12 {
+  font: 600 28px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #ff630c;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title12.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 31px 0px 0px; }
+
+.friend-finder-cover-block10 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 0px 0px; }
+
+.friend-finder-small-text-body5 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body5.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 13px 1px; }
+
+.friend-finder-flex3-spacer7 {
+  flex: 0 1 90px; }
+
+.friend-finder-flex3-item9 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 12px; }
+
+.friend-finder-icon2.layout1 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 7px 0px 55px; }
+
+.friend-finder-flex5-spacer {
+  flex: 0 1 6px; }
+
+.friend-finder-flex5-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 36px; }
+
+.friend-finder-flex6 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex6.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-highlights27 {
+  font: 16px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #a8a8a8;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights27.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-icon31 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon31.layout {
+  position: relative;
+  height: 27px;
+  width: 27px;
+  min-width: 27px;
+  margin: 20px 4px 0px 5px; }
+
+.friend-finder-line {
+  background-color: #ff1de8; }
+
+.friend-finder-line.layout {
+  position: relative;
+  height: 1px;
+  margin: 18px 0px 0px 5px; }
+
+.friend-finder-flex7 {
+  display: flex; }
+
+.friend-finder-flex7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 11px 5px 0px; }
+
+.friend-finder-flex7-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 48px; }
+
+.friend-finder-icon17 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon17.layout {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  margin: 19px 0px 17px; }
+
+.friend-finder-flex7-spacer2 {
+  flex: 0 1 14px; }
+
+.friend-finder-flex7-item5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 130px; }
+
+.friend-finder-flex8 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex8.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 6px 0px; }
+
+.friend-finder-big-title13 {
+  font: 600 28px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #ff630c;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title13.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 31px 0px 1px; }
+
+.friend-finder-flex9 {
+  display: flex; }
+
+.friend-finder-flex9.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 0px 0px; }
+
+.friend-finder-flex9-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 60px; }
+
+.friend-finder-cover-block81 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block81.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body7 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body7.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 8px 1px 13px; }
+
+.friend-finder-flex9-spacer3 {
+  flex: 0 1 7px; }
+
+.friend-finder-flex4-item5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 63px; }
+
+.friend-finder-cover-block62 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block62.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body8 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body8.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 8px 1px 10px; }
+
+.friend-finder-content-box1-spacer {
+  flex: 0 1 54px; }
+
+.friend-finder-flex5-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 12px; }
+
+.friend-finder-icon2.layout2 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 7px 0px 65px; }
+
+.friend-finder-content-box1-spacer3 {
+  flex: 0 1 4px; }
+
+.friend-finder-flex5-item7 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 40px; }
+
+.friend-finder-flex10 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-highlights29 {
+  font: 16px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #a8a8a8;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights29.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-icon32 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon32.layout {
+  position: relative;
+  height: 27px;
+  width: 27px;
+  min-width: 27px;
+  margin: 30px 7px 0px 6px; }
+
+.friend-finder-line.layout1 {
+  position: relative;
+  height: 1px;
+  margin: 13px 0px 0px 5px; }
+
+.friend-finder-flex111 {
+  display: flex; }
+
+.friend-finder-flex111.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 13px 5px 0px; }
+
+.friend-finder-flex11-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 48px; }
+
+.friend-finder-icon112 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon112.layout {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  margin: 17px 0px 7px; }
+
+.friend-finder-flex11-spacer1 {
+  flex: 0 1 14px; }
+
+.friend-finder-flex11-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 149px; }
+
+.friend-finder-flex12 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex12.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-big-title14 {
+  font: 600 28px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #ff630c;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title14.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 32px 0px 0px; }
+
+.friend-finder-flex13 {
+  display: flex; }
+
+.friend-finder-flex13.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 0px 0px 1px; }
+
+.friend-finder-flex13-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 66px; }
+
+.friend-finder-cover-block34 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block34.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body9 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body9.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 9px 1px 12px; }
+
+.friend-finder-flex11-spacer5 {
+  flex: 0 1 6px; }
+
+.friend-finder-flex6-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 76px; }
+
+.friend-finder-cover-block43 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block43.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body10 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body10.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 10px 1px 13px; }
+
+.friend-finder-flex11-spacer9 {
+  flex: 0 1 32px; }
+
+.friend-finder-flex11-item6 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 12px; }
+
+.friend-finder-icon2.layout4 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 11px 0px 49px; }
+
+.friend-finder-flex11-spacer13 {
+  flex: 0 1 5px; }
+
+.friend-finder-highlights210 {
+  font: 16px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #a8a8a8;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights210.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 4px 0px 41px; }
+
+.friend-finder-line.layout2 {
+  position: relative;
+  height: 1px;
+  margin: 22px 0px 0px 5px; }
+
+.friend-finder-flex14 {
+  display: flex; }
+
+.friend-finder-flex14.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 11px 5px 0px; }
+
+.friend-finder-flex14-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 48px; }
+
+.friend-finder-icon113 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon113.layout {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  margin: 20px 0px 21px; }
+
+.friend-finder-block2-spacer {
+  flex: 0 1 14px; }
+
+.friend-finder-block2-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 175px; }
+
+.friend-finder-group.layout17 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 9px 0px 11px; }
+
+.friend-finder-big-title15 {
+  font: 600 28px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #ff630c;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title15.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 22px; }
+
+.friend-finder-cover-block29 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block29.layout {
+  position: absolute;
+  top: 46px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  left: 0px;
+  width: 73px;
+  min-width: 73px; }
+
+.friend-finder-small-text-body15 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body15.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 7px 1px 13px; }
+
+.friend-finder-cover-block30 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block30.layout {
+  position: absolute;
+  top: 46px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  bottom: 0px;
+  width: 93px;
+  min-width: 93px;
+  right: 0px; }
+
+.friend-finder-small-text-body16 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body16.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 9px 1px 13px; }
+
+.friend-finder-flex1-spacer5 {
+  flex: 0 1 6px; }
+
+.friend-finder-flex1-item5 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 12px; }
+
+.friend-finder-icon2.layout5 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 7px 0px 70px; }
+
+.friend-finder-flex6-spacer6 {
+  flex: 0 1 7px; }
+
+.friend-finder-flex6-item8 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 41px; }
+
+.friend-finder-flex15 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex15.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-highlights211 {
+  font: 16px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #a8a8a8;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights211.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-icon37 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon37.layout {
+  position: relative;
+  height: 27px;
+  width: 27px;
+  min-width: 27px;
+  margin: 35px 8px 0px 6px; }
+
+.friend-finder-line.layout3 {
+  position: relative;
+  height: 1px;
+  margin: 12px 4px 0px 1px; }
+
+.friend-finder-flex16 {
+  display: flex; }
+
+.friend-finder-flex16.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 12px 5px 5px; }
+
+.friend-finder-flex16-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 48px; }
+
+.friend-finder-icon114 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon114.layout {
+  position: relative;
+  height: 48px;
+  width: 48px;
+  min-width: 48px;
+  margin: 23px 0px 1px; }
+
+.friend-finder-flex16-spacer {
+  flex: 0 1 14px; }
+
+.friend-finder-flex16-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 136px; }
+
+.friend-finder-flex17 {
+  display: flex;
+  flex-direction: column; }
+
+.friend-finder-flex17.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-big-title16 {
+  font: 600 28px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #ff630c;
+  letter-spacing: 0px; }
+
+.friend-finder-big-title16.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 18px 0px 2px; }
+
+.friend-finder-flex18 {
+  display: flex; }
+
+.friend-finder-flex18.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 0px 0px; }
+
+.friend-finder-flex18-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 59px; }
+
+.friend-finder-cover-block53 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block53.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body18-box.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 5px 1px 13px; }
+
+.friend-finder-small-text-body18 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px;
+  white-space: pre-wrap; }
+
+.friend-finder-flex18-spacer1 {
+  flex: 0 1 5px; }
+
+.friend-finder-flex17-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 72px; }
+
+.friend-finder-cover-block113 {
+  display: flex;
+  flex-direction: column;
+  background-color: #0373f3;
+  border-radius: 11.5px 11.5px 11.5px 11.5px; }
+
+.friend-finder-cover-block113.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-small-text-body19 {
+  font: 12px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  letter-spacing: 0px; }
+
+.friend-finder-small-text-body19.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 2px 9px 1px 11px; }
+
+.friend-finder-flex16-spacer3 {
+  flex: 0 1 45px; }
+
+.friend-finder-flex16-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 12px; }
+
+.friend-finder-icon2.layout6 {
+  position: relative;
+  height: 12px;
+  width: 12px;
+  min-width: 12px;
+  margin: 7px 0px 53px; }
+
+.friend-finder-flex16-spacer5 {
+  flex: 0 1 6px; }
+
+.friend-finder-highlights212 {
+  font: 16px/1.64 "Poppins", Helvetica, Arial, serif;
+  color: #a8a8a8;
+  letter-spacing: 0px; }
+
+.friend-finder-highlights212.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 45px; }
+
+.friend-finder-flex19 {
+  display: flex; }
+
+.friend-finder-flex19.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 20px 22px 11px; }
+
+.friend-finder-flex19-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 21px; }
+
+.friend-finder-image5.layout3 {
+  position: relative;
+  height: 24px;
+  width: 21px;
+  min-width: 21px;
+  margin: 10px 0px 12px; }
+
+.friend-finder-flex19-spacer1 {
+  flex: 0 1 44px; }
+
+.friend-finder-flex19-item1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 46px; }
+
+.friend-finder-cover-block101 {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffe873;
+  border-radius: 5px 5px 5px 5px; }
+
+.friend-finder-cover-block101.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.friend-finder-image6.layout5 {
+  position: relative;
+  height: 24px;
+  width: 27px;
+  min-width: 27px;
+  margin: 11px 10px 11px 9px; }
+
+.friend-finder-flex19-spacer3 {
+  flex: 0 1 30px; }
+
+.friend-finder-flex19-item2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 31px; }
+
+.friend-finder-icon20 {
+  background: var(--src) center center/contain no-repeat; }
+
+.friend-finder-icon20.layout {
+  position: relative;
+  height: 31px;
+  width: 31px;
+  min-width: 31px;
+  margin: 7px 0px 8px; }
+
+.friend-finder-flex19-spacer5 {
+  flex: 0 1 40px; }
+
+.friend-finder-flex19-item3 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 30px; }
+
+.friend-finder-image7.layout2 {
+  position: relative;
+  height: 28px;
+  width: 30px;
+  min-width: 30px;
+  margin: 8px 0px 10px; }
+
+.friend-finder-flex-spacer14 {
+  flex: 0 1 40px; }
+
+.friend-finder-flex9-item4 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 21px; }
+
+.friend-finder-image5.layout4 {
+  position: relative;
+  height: 24px;
+  width: 21px;
+  min-width: 21px;
+  margin: 10px 0px 12px; }
