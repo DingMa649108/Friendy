@@ -1,10 +1,11 @@
 const asyncHandler = require('express-async-handler')
-const user = require('../models/userModel')
+const User = require('../models/userModel')
 
 // @desc   user signup
-// @route  PUT /api/userSignupStatus
+// @route  PUT /api/user
 // @access Private
 const signUp = asyncHandler(async (req, res) => {
+  console.log(req.body)
   const {
     id,
     password,
@@ -16,10 +17,10 @@ const signUp = asyncHandler(async (req, res) => {
     interests,
   } = req.body.user
 
-  const user = await User.findOne({id: id});
-  if(user) {
+  const user = await User.findOne({ id: id })
+  if (user) {
     res.status(404)
-    throw new Error(`User with id ${req.params.id} already exist, please log in`)
+    throw new Error(`User with id ${id} already exist, please log in`)
   }
 
   const newUser = await User.create({
@@ -37,17 +38,17 @@ const signUp = asyncHandler(async (req, res) => {
 })
 
 // @desc   user login
-// @route  GET /api/userLoginStatus
+// @route  GET /api/:id/:userLoginStatus
 // @access Private
 const login = asyncHandler(async (req, res) => {
-  const user = await User.findOne({id: req.body.user.id});
-  if(!user) {
+  const user = await User.findOne({ id: req.body.user.id })
+  if (!user) {
     res.status(404)
-    throw new Error(`User with id ${req.params.id} not found`)
+    throw new Error(`User with id ${req.body.user.id} not found`)
   }
 
-  if(req.body.user.password == user.password) {
-    res.status(200);
+  if (req.body.user.password == user.password) {
+    res.status(200)
   } else {
     res.status(404)
     throw new Error(`Password not correct, please enter again`)
@@ -59,7 +60,7 @@ const login = asyncHandler(async (req, res) => {
 // @route  GET /api/users
 // @access Private
 const getUsers = asyncHandler(async (req, res) => {
-  const users = await user.find()
+  const users = await User.find()
   res.status(200).json(users)
 })
 
@@ -74,18 +75,12 @@ const getUser = asyncHandler(async (req, res) => {
 // @desc   update user
 // @route  PUT /api/users/:id
 // @access Private
-const updateUser = asyncHandler(async (req, res) => {
-
-})
+const updateUser = asyncHandler(async (req, res) => {})
 
 // @desc   create user
 // @route  POST /api/users
 // @access Private
-const createUser = asyncHandler(async (req, res) => {
-
-})
-
-
+const createUser = asyncHandler(async (req, res) => {})
 
 // @desc   get nearby users that has three or more common interests within 500 meter radius
 // @route  GET /api/nearbyCommonInterestsUsers
@@ -96,11 +91,7 @@ const getNearbyCommonInterestsUsers = asyncHandler(async (req, res) => {
 })
 
 module.exports = {
-  getusers,
-  getuser,
-  updateuser,
-  createuser,
-  deleteuser,
   signUp,
   login,
+  getUsers,
 }
